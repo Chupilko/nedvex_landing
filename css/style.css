@@ -30,7 +30,7 @@ a{
 .flex-container{
 	max-width: 1024px;
 	margin: auto;
-	padding: 0 15px;     							/*  такое */
+	padding: 0 15px;     							/*  чтоб не прилипало к краям */
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -73,7 +73,7 @@ a{
 }
 
 .btn.btn-xl{
-	width: 240px;						/* 111111 */	
+	width: 240px;
 }
 
 .btn.btn-default{
